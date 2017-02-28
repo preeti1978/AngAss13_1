@@ -1,0 +1,17 @@
+<!--creating a menu as list-->
+<ul>
+  <li style="display:inline;">
+      <a routerLink="/home">HOME</a><!--routerLink is built in directive in which you pass the route you want to go-->
+   </li>
+    <li style="display:inline;">
+       <a routerLink="/about">ABOUT US</a>
+    </li>
+    <li style="display:inline;">
+       <a routerLink="/contact">CONTACT US</a>
+    </li>
+</ul>
+
+
+<router-outlet>
+  <!--This is the place where we want to load the component on click of each menu link-->
+</router-outlet>
